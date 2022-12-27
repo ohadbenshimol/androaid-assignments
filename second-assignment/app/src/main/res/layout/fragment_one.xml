@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragmentOne">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="291dp"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:text="ASSIGNMENT 2"
+        android:textColor="#C04D4D"
+        android:textSize="50sp" />
+
+    <Button
+        android:id="@+id/loginBtn"
+        android:layout_width="match_parent"
+        android:layout_height="79dp"
+        android:layout_margin="33px"
+        android:backgroundTint="#CC2B2B"
+        android:text="Login" />
+
+    <Button
+        android:id="@+id/registerBtn"
+        android:layout_width="match_parent"
+        android:layout_height="79dp"
+        android:layout_margin="33px"
+        android:backgroundTint="#CC2B2B"
+        android:text="Register" />
+
+
+</LinearLayout>
