@@ -1,5 +1,6 @@
 package com.example.third_assignment;
 
+import android.net.Uri;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -10,6 +11,9 @@ import androidx.annotation.NonNull;
 import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.squareup.picasso.Picasso;
+
+import java.net.URL;
 import java.util.ArrayList;
 
 public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.MyViewHolder> {
@@ -55,7 +59,7 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.MyViewHold
 
         textViewName.setText(dataSet.get(position).getName());
         textViewVersion.setText(dataSet.get(position).getVersion());
-        imageView.setImageResource(dataSet.get(position).getImage());
+        Picasso.get().load(dataSet.get(position).getImage()).into(imageView);
 
     }
 

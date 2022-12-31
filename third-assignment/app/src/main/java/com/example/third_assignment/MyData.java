@@ -6,3 +6,5 @@ public class MyData {
     static Integer[] drawableArray = {R.drawable.yoel, R.drawable.yoel2, R.drawable.ohad, R.drawable.oriel, R.drawable.oriel};
     static Integer[] id_ = {0, 1, 2, 3,4};
 }
+
+
